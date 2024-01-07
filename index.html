@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Guilherme Baptista</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="./assets/img/my-photo.png" alt="Foto de Guilherme" class="photo">
+
+            <h1 class="title">Olá, <br> eu sou Guilherme Baptista</h1>
+
+
+            <div class="information">
+                <p class="job">Junior Developer</p>
+                <p class="location">Joinville, SC - BR</p>
+                <p class="phone">
+                    <a href="tel: (47)99916-6406">(47)99916-6406</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:guis.baptista03@gmail.com"> guis.baptista03@gmail.com</a>
+                </p>
+            </div>
+        </header>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades Profissionais:</h3>
+                        <ul>
+                            <li>
+                                <img src="assets/img/icons/languages/javascript.svg" alt="JavaScript">
+                            </li>
+                            <li>
+                                <img src="assets/img/icons/languages/nodejs.svg" alt="NODEJS">
+                            </li>
+                            <li>
+                                <img src="assets/img/icons/languages/css.svg" alt="CSS">
+                            </li>
+                            <li>
+                                <img src="assets/img/icons/languages/git.svg" alt="GIT">
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Habilidades pessoais:</h3>
+                        <ul>
+                            <li>comprometimento com resultados</li>
+                            <li>facilidade com tarefas práticas</li>
+                            <li>comunicação</li>
+                            <li>trabalho em equipe</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês Básico</li>
+                </ul>
+            </div>
+        </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title"> Cadastro pokemon</h3>
+                        <a href="https://github.com/Guisbaptista/Cadastro-Pokemon" target="_blank">https://github.com/Guisbaptista/Cadastro-Pokemon</a>
+                    </li>
+                    <li>
+                        <h3 class="title"> desafio Felipao</h3>
+                        <a href="https://github.com/Guisbaptista/desafio-Felipao" target="_blank">https://github.com/Guisbaptista/desafio-Felipao</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Educação</h2>
+            </button>
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title"> Análise e desenvolvimento de Sistemas <br> Centro Universitário Leonardo da Vinci</h3>
+                        <p class="period"> Agosto / 2023, cursando</p>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

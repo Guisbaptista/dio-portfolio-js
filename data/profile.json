@@ -1,0 +1,71 @@
+{
+    "nome": "Guilherme da Silva Baptista",
+    "titulo": "Junior Developer",
+    "localidade": {
+      "cidade": "Joinville",
+      "estado": "SC",
+      "pais": "Brasil"
+    },
+    "telefone": "(47) 99916-6406",
+    "email": "guis.baptista03@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "nome": "JavaScript",
+          "logo": "TODO"
+        },
+        {
+          "nome": "NodeJS",
+          "logo": "TODO"
+        },
+        {
+          "nome": "CSS",
+          "logo": "TODO"
+        },
+        {
+            "nome": "GIT",
+            "logo": "TODO"
+          }
+      ],
+      "softSkills": [
+        "comprometimento com resultados",
+        "facilidade com tarefas práticas",
+        "Comunicação",
+        "trabalho em equipe"
+      ]
+    },
+    "idiomas": [
+      {
+        "nome": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "nome": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    
+    "portfolio": [
+      {
+        "nome": "Cadastro pokemon",
+        "gitHub": "https://github.com/Guisbaptista/Cadastro-Pokemon",
+        "certificado": ""
+      },
+      {
+        "nome": "desafio felipao",
+        "gitHub": "https://github.com/Guisbaptista/desafio-Felipao",
+        "certificado": ""
+      }
+    ],
+    "educação": [
+      {
+        "nome": "Análise e desenvolvimento de sistemas ",
+        "descricao": "",
+        "instituicao": "Centro Universitário Leonardo da Vinci",
+        "periodo": {
+          "inicio": "08/2023",
+          "fim": "Atualmente"
+        }
+      }
+    ]
+  }
