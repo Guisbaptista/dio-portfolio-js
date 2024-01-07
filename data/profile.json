@@ -37,14 +37,14 @@
     ],
     "portfolio": [
       {
-        "nome": "Cadastro pokemon",
-        "gitHub": "https://github.com/Guisbaptista/Cadastro-Pokemon",
-        "certificado": ""
+        "name": "Cadastro pokemon",
+        "url": "https://github.com/Guisbaptista/Cadastro-Pokemon",
+        "git": true
       },
       {
-        "nome": "desafio felipao",
-        "gitHub": "https://github.com/Guisbaptista/desafio-Felipao",
-        "certificado": ""
+        "name": "desafio felipao",
+        "url": "https://github.com/Guisbaptista/desafio-Felipao",
+        "git": true
       }
     ],
     "educação": [
