@@ -47,15 +47,11 @@
         "github": true
       }
     ],
-    "educação": [
+    "professionalExperience": [
       {
-        "nome": "Análise e desenvolvimento de sistemas ",
-        "descricao": "",
-        "instituicao": "Centro Universitário Leonardo da Vinci",
-        "periodo": {
-          "inicio": "08/2023",
-          "fim": "Atualmente"
-        }
+        "name": "Análise e desenvolvimento de sistemas / Centro Universitário Leonardo da Vinci",
+        "period": "Agosto, 2023 - atualmente",
+        "description": ""
       }
     ]
   }
