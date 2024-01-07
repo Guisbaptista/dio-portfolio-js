@@ -31,17 +31,10 @@
         "trabalho em equipe"
       ]
     },
-    "idiomas": [
-      {
-        "nome": "Português",
-        "nivel": "Nativo"
-      },
-      {
-        "nome": "Inglês",
-        "nivel": "Básico"
-      }
+    "languages": [
+      "Português BR",
+      "Inglês Básico"
     ],
-    
     "portfolio": [
       {
         "nome": "Cadastro pokemon",
