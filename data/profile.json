@@ -8,21 +8,21 @@
     "skills": {
       "hardSkills": [
         {
-          "nome": "JavaScript",
-          "logo": "TODO"
+          "name": "JavaScript",
+          "logo": "https://github.com/Guisbaptista/dio-portfolio-js/blob/main/data/imgs/js.png?raw=true"
         },
         {
-          "nome": "NodeJS",
-          "logo": "TODO"
+          "name": "NodeJS",
+          "logo": "https://github.com/Guisbaptista/dio-portfolio-js/blob/main/data/imgs/nodejs.png?raw=true"
         },
         {
-          "nome": "CSS",
-          "logo": "TODO"
+          "name": "CSS",
+          "logo": "https://github.com/Guisbaptista/dio-portfolio-js/blob/main/data/imgs/css.png?raw=true"
         },
         {
-            "nome": "GIT",
-            "logo": "TODO"
-          }
+          "name": "GIT",
+          "logo": "https://github.com/Guisbaptista/dio-portfolio-js/blob/main/data/imgs/git.png?raw=true"
+        }
       ],
       "softSkills": [
         "comprometimento com resultados",
