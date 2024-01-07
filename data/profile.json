@@ -1,12 +1,9 @@
 {
-    "nome": "Guilherme da Silva Baptista",
-    "titulo": "Junior Developer",
-    "localidade": {
-      "cidade": "Joinville",
-      "estado": "SC",
-      "pais": "Brasil"
-    },
-    "telefone": "(47) 99916-6406",
+    "name": "Guilherme da Silva Baptista",
+    "photo": "https://avatars.githubusercontent.com/u/117361210?s=400&u=57b967818f71b5068c3e7e6dc25f971efd04b294&v=4",
+    "job": "Junior Developer",
+    "location": "Joinville - SC",
+    "phone": "(47) 99916-6406",
     "email": "guis.baptista03@gmail.com",
     "skills": {
       "hardSkills": [
