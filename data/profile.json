@@ -39,12 +39,12 @@
       {
         "name": "Cadastro pokemon",
         "url": "https://github.com/Guisbaptista/Cadastro-Pokemon",
-        "git": true
+        "github": true
       },
       {
         "name": "desafio felipao",
         "url": "https://github.com/Guisbaptista/desafio-Felipao",
-        "git": true
+        "github": true
       }
     ],
     "educação": [
