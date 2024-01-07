@@ -26,19 +26,20 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="./assets/img/my-photo.png" alt="Foto de Guilherme" class="photo">
+            <img src="./assets/img/my-photo.png" alt="Foto de Guilherme" class="photo" id="profile.photo">
 
-            <h1 class="title">Olá, <br> eu sou Guilherme Baptista</h1>
-
+            <h1 class="title">Olá, <br> eu sou <span id="profile.name">Guilherme Baptista</span>
+            </h1>
+        
 
             <div class="information">
-                <p class="job">Junior Developer</p>
-                <p class="location">Joinville, SC - BR</p>
+                <p class="job" id="profile.job">Junior Developer</p>
+                <p class="location" id="profile.location">Joinville, SC - BR</p>
                 <p class="phone">
-                    <a href="tel: (47)99916-6406">(47)99916-6406</a>
+                    <a href="tel: (47)99916-6406" id="profile.phone">(47)99916-6406</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:guis.baptista03@gmail.com"> guis.baptista03@gmail.com</a>
+                    <a href="mailto:guis.baptista03@gmail.com" id="profile.email"> guis.baptista03@gmail.com</a>
                 </p>
             </div>
         </header>
@@ -50,7 +51,7 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Habilidades Profissionais:</h3>
-                        <ul>
+                        <ul id="profile.skills.hardSkills">
                             <li>
                                 <img src="assets/img/icons/languages/javascript.svg" alt="JavaScript">
                             </li>
@@ -67,7 +68,7 @@
                     </section>
                     <section class="personal">
                         <h3>Habilidades pessoais:</h3>
-                        <ul>
+                        <ul id="profile.skills.softSkills">
                             <li>comprometimento com resultados</li>
                             <li>facilidade com tarefas práticas</li>
                             <li>comunicação</li>
@@ -82,7 +83,7 @@
                 <h2>Idiomas</h2>
             </button>
             <div class="content">
-                <ul class="languages">
+                <ul class="languages" id="profile.languages">
                     <li>Português</li>
                     <li>Inglês Básico</li>
                 </ul>
@@ -93,7 +94,7 @@
                 <h2>Portfólio</h2>
             </button>
             <div class="content">
-                <ul class="portfolio">
+                <ul class="portfolio" id="profile.portfolio">
                     <li>
                         <h3 class="title"> Cadastro pokemon</h3>
                         <a href="https://github.com/Guisbaptista/Cadastro-Pokemon" target="_blank">https://github.com/Guisbaptista/Cadastro-Pokemon</a>
@@ -110,7 +111,7 @@
                 <h2>Educação</h2>
             </button>
             <div class="content">
-                <ul class="experience">
+                <ul class="experience" id="profile.professionalExperience">
                     <li>
                         <h3 class="title"> Análise e desenvolvimento de Sistemas <br> Centro Universitário Leonardo da Vinci</h3>
                         <p class="period"> Agosto / 2023, cursando</p>
@@ -119,6 +120,11 @@
                 </ul>
             </div>
         </section>
+        <footer>
+            <a href="https://www.dio.me/" target="_blank">
+                <img src="assets/img/dio.svg" alt="DIO">
+            </a>
+        </footer>
     </main>
 
     <script src="assets/js/acordeon.js"></script>
