@@ -8,6 +8,10 @@
     "skills": {
       "hardSkills": [
         {
+          "name": "C#",
+          "logo": "https://github.com/Guisbaptista/dio-portfolio-js/blob/main/data/imgs/csharp.png?raw=true"
+        },
+        {
           "name": "JavaScript",
           "logo": "https://github.com/Guisbaptista/dio-portfolio-js/blob/main/data/imgs/js.png?raw=true"
         },
@@ -42,8 +46,8 @@
         "github": true
       },
       {
-        "name": "desafio felipao",
-        "url": "https://github.com/Guisbaptista/desafio-Felipao",
+        "name": "Jogo do mario",
+        "url": "https://github.com/Guisbaptista/Game-Mario",
         "github": true
       }
     ],
@@ -51,7 +55,12 @@
       {
         "name": "Análise e desenvolvimento de sistemas / Centro Universitário Leonardo da Vinci",
         "period": "Agosto, 2023 - atualmente",
-        "description": "Estou atualmente cursando e a procura de uma oportunidade"
+        "description": "Buscando conhecimentos para me aperfoiçoar tecnicamente"
+      },
+      {
+        "name": "Programador de Sistemas de de Informação",
+        "period": "Abril, 2024 - atualmente",
+        "description": "Trabalho Full Stack para a BRCondos, utilizando linguagens C#/ .NET, Vue.JS, JS, e algumas outras, sendo o banco de dados Relacional (MySQL) e usamos metodoligias ageis "
       }
     ]
   }
